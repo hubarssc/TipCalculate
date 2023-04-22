@@ -4,6 +4,7 @@ public class Program {
     public static void main(String[] args) {
         numberReverse();
         numbersRightToLeft();
+        difficultPercent();
     }
 
     /**
@@ -35,6 +36,23 @@ public class Program {
         int thirdNumber = num / 100 % 10; // нашли третье число с права на лево
 
         System.out.println("The third number is from right to left : " + thirdNumber);
+    }
+
+    /**
+     * Человек положил в банк сумму в s рублей под p% годовых (проценты начисляются в конце года).
+     * Сколько денег будет на счету через 3 года (с учётом сложных процентов)?
+     * Например, 100 рублей под 10% годовых превратятся в 133.1 рубля
+     */
+    private static void difficultPercent() {
+        System.out.print("\nTask 3\nInput sum of money : ");
+        Scanner in = new Scanner(System.in);
+
+        double money = in.nextInt();
+        double profitOfYear = money / 10 + money;
+        double profitOfTwoYears = profitOfYear / 10 + profitOfYear;
+        double profitThreeYears = profitOfTwoYears / 10 + profitOfTwoYears;
+
+        System.out.println("profit for three years : " + profitThreeYears);
     }
 
 }
