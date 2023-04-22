@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Program {
     public static void main(String[] args) {
         numberReverse();
+        numbersRightToLeft();
     }
 
     /**
@@ -22,4 +23,19 @@ public class Program {
         System.out.println("Inverted number: " + reverseNumber);
     }
 
+    /**
+     * Пользователь задает целое число, больше или равно 100 (например, 3801).
+     * Определить третью цифру справа в этом числе (в данном случае 8).
+     */
+    private static void numbersRightToLeft() {
+        System.out.print("\nTask 2\nInput number from 100 : ");
+        Scanner in = new Scanner(System.in);
+
+        int num = in.nextInt();
+        int thirdNumber = num / 100 % 10; // нашли третье число с права на лево
+
+        System.out.println("The third number is from right to left : " + thirdNumber);
+    }
+
 }
+
