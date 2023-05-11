@@ -22,6 +22,6 @@ public class Crocodile extends Animal {
 
     @Override
     public void sound() {
-        System.out.print("Рррр! ");
+        System.out.print(" Sound: Rrrr!");
     }
 }
