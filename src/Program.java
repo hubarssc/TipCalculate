@@ -1,21 +1,28 @@
-import fauna.Animal;
-import fauna.Cat;
-import fauna.Crocodile;
-
+import java.util.Scanner;
 public class Program {
-
     public static void main(String[] args) {
-        Animal cat = new Cat("Barsik;", 5, "red ");
 
-        System.out.print("Name: " + cat.getName() + " " + "Age: " + cat.getAge() + " Color: " + cat.getColor());
+        System.out.print("Input number: ");
+        Scanner in = new Scanner(System.in);
+        int number = in.nextInt();
 
-        cat.sound(); // Вызов метода sound() из класса Cat
+        String romanNumeral = convertToRoman(number);
+        System.out.print("result = " + romanNumeral);
+    }
 
-        Animal crocodile = new Crocodile("Crock;", 11, 6.5);
+    public static String convertToRoman(int number) {
+        int[] decimalValues = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+        String[] romanSymbols = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
+        StringBuilder romanNumeral = new StringBuilder();
 
-        System.out.print("Name: " + crocodile.getName() + " Age: " + crocodile.getAge() + " Length: " + crocodile.getLength());
+        for (int i = 0; i < decimalValues.length; i++) {
+            while (number >= decimalValues[i]) {
+                romanNumeral.append(romanSymbols[i]);
+                number -= decimalValues[i];
+            }
+        }
 
-        crocodile.sound(); // Вызов метода sound() из класса Crocodile
+        return romanNumeral.toString();
     }
 }
