@@ -1,5 +1,9 @@
+package homework6;
+// перевод числа в римскую систему
+
 import java.util.Scanner;
-public class Program {
+
+public class numTranslation {
     public static void main(String[] args) {
 
         System.out.print("Input number: ");

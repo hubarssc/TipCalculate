@@ -1,6 +1,7 @@
-package arraySearch;
+package homework5;
 
-public class array {
+    // найти в массиве самую длинную последовательность
+public class arrayLength {
     public static void main(String[] args) {
         int[] array = {1, 2, 2, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6};
         int maxLength = 1; // переменная для хранения длины самой длинной последовательности
@@ -30,3 +31,4 @@ public class array {
         System.out.println("Номер элемента, являющегося началом: " + maxElement);
     }
 }
+
