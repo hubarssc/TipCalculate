@@ -4,6 +4,13 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * *написать класс Phone, создать лист с его элементами. написать функцию,
+ * которая на вход будет принимать тип сортировки (по дате, по цене) и вывести отсортированные элементы.
+ * Преобразования над элементами коллекции производить с помощью Stream API
+ */
+
+
 public class Phone {
     public static void main(String[] args) {
         List<Phone> phoneList = Arrays.asList(
