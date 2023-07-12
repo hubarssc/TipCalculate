@@ -6,46 +6,46 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
-8-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml
+8-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml
+9-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:5:5-23:19
+11-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:5:5-23:19
 12        android:allowBackup="true"
-12-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:6:9-35
+12-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.7.0] C:\Users\Androt\.gradle\caches\transforms-3\b18147ffaaa38f8cb72464b789131c5e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:7:9-65
+14-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:7:9-65
 15        android:debuggable="true"
 16        android:extractNativeLibs="false"
 17        android:fullBackupContent="@xml/backup_rules"
-17-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:8:9-54
+17-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:8:9-54
 18        android:icon="@drawable/calc"
-18-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:9:9-38
+18-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:9:9-38
 19        android:label="@string/app_name"
-19-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:10:9-41
+19-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:10:9-41
 20        android:supportsRtl="true"
-20-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:11:9-35
+20-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:11:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.MyApplication" >
-22-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:12:9-51
+22-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:12:9-51
 23        <activity
-23-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:14:9-22:20
+23-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:14:9-22:20
 24            android:name="com.example.myapplication.MainActivity"
-24-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:15:13-41
+24-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:15:13-41
 25            android:exported="true" >
-25-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:16:13-36
+25-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:16:13-36
 26            <intent-filter>
-26-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:17:13-21:29
+26-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:17:13-21:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:18:17-69
-27-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:18:25-66
+27-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:18:17-69
+27-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:18:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:20:17-77
-29-->D:\AndroidApps\AndroidApp\app\src\main\AndroidManifest.xml:20:27-74
+29-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:20:17-77
+29-->D:\AndroidApps\tipcalc\app\src\main\AndroidManifest.xml:20:27-74
 30            </intent-filter>
 31        </activity>
 32
