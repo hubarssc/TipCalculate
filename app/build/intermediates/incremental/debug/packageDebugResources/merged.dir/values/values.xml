@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black_night">#1E1C1B</color>
+    <color name="blue_light">#e7e0eb</color>
+    <color name="iphone_switch_thumb_color_checked">#4A148C</color>
+    <color name="iphone_switch_thumb_color_unchecked">#93AEB1</color>
+    <color name="pink_dark">#C51162</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="scarlet">#31101D</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="violet">#6750a4</color>
+    <color name="violet_light">#625b71</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="amazing_20">Amazing (20%)</string>
+    <string name="app_name">My Application</string>
+    <string name="calculate">Calculate</string>
+    <string name="cost_of_service">Cost of Service</string>
+    <string name="good_18">Good (18%)</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="okay_15">Okay (15%)</string>
+    <string name="round_up_tip">Round up tip?</string>
+    <string name="tip_amount">Tip Amount: %s</string>
+    <style name="CustomSwitchStyle" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:thumb">@drawable/iphone_switch_thumb</item>
+        <item name="android:track">@drawable/track_selector</item>
+    </style>
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/violet</item>
+        <item name="colorPrimaryVariant">@color/violet_light</item>
+        <item name="colorOnPrimary">@color/pink_dark</item>
+        
+        <item name="colorSecondary">@color/scarlet</item>
+        <item name="colorSecondaryVariant">@color/black_night</item>
+        <item name="colorOnSecondary">@color/blue_light</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+
+    </style>
+</resources>
